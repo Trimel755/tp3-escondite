@@ -4,7 +4,7 @@ Projet final réalisé dans le cadre du cours **Intégration Web 1**.
 Le site est inspiré de [https://escondite.ca](https://escondite.ca)
 
 # Démo
-👉 [Lien GitHub Pages (si activé)](https://Trimel755.github.io/tp3-escondite)
+👉 [Lien GitHub)](https://Trimel755.github.io/tp3-escondite)
 
 # Contenu
 - `index.html` — Page d’accueil
