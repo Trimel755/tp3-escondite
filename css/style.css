@@ -1,0 +1,402 @@
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #111;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header {
+    background-color: #000;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-desktop {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .nav-desktop a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-desktop a:hover {
+    color: #FFD700;
+  }
+  
+  .btn-commande {
+    background-color: #FFD700;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #000;
+  }
+  
+  .menu-mobile {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('../img/hanzo-bg-rez1.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .cta .btn {
+    display: block;
+    background-color: #FFD700;
+    color: #000;
+    padding: 12px 20px;
+    margin: 10px auto;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    width: 90%;
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .cta .btn:hover {
+    background-color: #e6c200;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .menu-items .item {
+    width: 280px;
+    text-align: center;
+  }
+  
+  .menu-items .item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .contact-map {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 40px;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info a {
+    color: #FFD700;
+    text-decoration: underline;
+  }
+  
+  .map {
+    flex: 2;
+    min-height: 400px;
+  }
+  
+  
+  /* Témoignages Style */
+  .testimonials {
+    padding: 60px 20px;
+    background-color: #1a1a1a;
+    text-align: center;
+  }
+  
+  .testimonials .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+  }
+  
+  .testimonial-card {
+    background-color: #222;
+    color: #ccc;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: left;
+  }
+  
+  .testimonial-card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .testimonial-card p {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+  
+  /* Formulaire Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+    margin: 40px auto;
+  }
+  
+  form input, form select, form textarea, form button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e6c200;
+  }
+  
+  /* Galerie Restaurant Style*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 40px;
+  }
+  
+  /* Tableau commandwe */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #fff;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #222;
+  }
+  
+  /* Page de Confirmation */
+  .confirmation {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 2rem;
+  }
+
+  /* Boîte de commande avec les details */
+.commande-details {
+    background-color: #eee;
+    color: #000;
+    padding: 30px;
+    max-width: 350px;
+    margin: 40px auto;
+    border-radius: 8px;
+  }
+  
+  .commande-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .commande-details .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+  
+  .commande-details .total {
+    border-top: 1px solid #444;
+    padding-top: 12px;
+    font-weight: bold;
+  }
+  
+  .commande-details button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 1200px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .nav-desktop {
+      display: none;
+    }
+    .menu-mobile {
+      display: block;
+    }
+    .menu-items {
+      flex-direction: column;
+      align-items: center;
+    }
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-map {
+      flex-direction: column;
+    }
+  
+    .map {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .cta .btn {
+      width: 90%;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  
+    .menu-items .item {
+      width: 90%;
+    }
+  
+    .testimonials .cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .testimonial-card {
+      padding: 16px;
+    }
+  }
+  
