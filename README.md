@@ -1,3 +1,4 @@
-# TP3 - Antonio Trivino
+# TP3 - Intégration Web 1
 
-Dépôt Github : https://github.com/Trimel755/tp3-escondite
+Projet final réalisé par Trimel755.
+Site inspiré de [escondite.ca](https://escondite.ca).
